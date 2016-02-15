@@ -18,3 +18,7 @@ output*
 exercise
 .metadata/
 RemoteSystemsTempFiles/
+.cproject
+.project
+.settings/
+Debug_with_Linux_GCC_remote/
