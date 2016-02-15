@@ -30,7 +30,6 @@ int Count3sProcessSerial::searchFile(string file)
 			for (int i=0; i<SIZE; i++)
 			{
 				zeroCheck = fabs(number[i] - SEARCH); // store absolute value difference
-//				cout << zeroCheck << " - ";
 			
 				if (zeroCheck < 0.001)
 					found++;
